@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/symmetrical-train/static/css/main.613a05dc.chunk.css",
+    "main.js": "/symmetrical-train/static/js/main.cf4d3843.chunk.js",
+    "main.js.map": "/symmetrical-train/static/js/main.cf4d3843.chunk.js.map",
+    "runtime-main.js": "/symmetrical-train/static/js/runtime-main.3f85c1de.js",
+    "runtime-main.js.map": "/symmetrical-train/static/js/runtime-main.3f85c1de.js.map",
+    "static/js/2.4bf9ed25.chunk.js": "/symmetrical-train/static/js/2.4bf9ed25.chunk.js",
+    "static/js/2.4bf9ed25.chunk.js.map": "/symmetrical-train/static/js/2.4bf9ed25.chunk.js.map",
+    "index.html": "/symmetrical-train/index.html",
+    "precache-manifest.c313f3f76cdca07f665d95d10185afd0.js": "/symmetrical-train/precache-manifest.c313f3f76cdca07f665d95d10185afd0.js",
+    "service-worker.js": "/symmetrical-train/service-worker.js",
+    "static/css/main.613a05dc.chunk.css.map": "/symmetrical-train/static/css/main.613a05dc.chunk.css.map",
+    "static/js/2.4bf9ed25.chunk.js.LICENSE.txt": "/symmetrical-train/static/js/2.4bf9ed25.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f85c1de.js",
+    "static/js/2.4bf9ed25.chunk.js",
+    "static/css/main.613a05dc.chunk.css",
+    "static/js/main.cf4d3843.chunk.js"
+  ]
+}
