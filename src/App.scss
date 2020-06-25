@@ -1,0 +1,130 @@
+/////////////  Variables //////////////
+$primaryColor: rgb(240, 203, 159);
+$background: rgba(0, 0, 0, 0.808);
+$textColor: rgb(175, 175, 175);
+
+$breakPoint: 47.94em;   ////// 727/16 = 47.94em 
+
+
+html {
+  font-size: 62.5%; /////// defining the value of 1rem
+}
+
+body {
+  background-color: $background;
+  font-family: sans-serif;
+
+  
+  @media only screen and (min-width: $breakPoint) {
+    display: none;
+    
+  }
+  
+}
+.App {
+  text-align: center;
+
+  &  .pattern_top {
+
+    &  .bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 5rem;
+      width: 2rem;
+      border-bottom-right-radius: 1rem;
+      background-color: rgba(255, 255, 255, 0.397);
+      z-index: 100;
+    }
+    &  .bar2 {
+      background-color: $primaryColor;
+      width: 5rem;
+      height: 2rem;
+      z-index: 10;
+    }
+  }
+
+  &  .pattern_bottom {
+
+    &  .bar {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      height: 5rem;
+      width: 2rem;
+      background-color: rgba(255, 255, 255, 0.397);
+      border-top-left-radius: 1rem;
+      z-index: 100;
+    }
+    &  .bar2 {
+      background-color: $primaryColor;
+      width: 5rem;
+      height: 2rem;
+      z-index: 10;
+    }
+  }
+
+  &  header {
+    margin-top: 10rem;
+    text-align: center;
+
+
+    .logo {
+      padding: 2rem;
+      background-color: white;
+      width: min-content;
+      margin: auto;
+      font-size: 2rem;
+      text-transform: uppercase;
+    }
+
+    &  .brand_name {
+      margin: auto;
+      background-color: black;
+      width: max-content;
+      color: white;
+      font-style: italic;
+      padding: .5rem 1rem;
+      font-weight: 500;
+    }
+  }
+
+  &  form {
+    margin: 5rem 0;
+
+    &  .input {
+      padding: 1rem;
+      font-size: 1.2rem;
+      color: $textColor;
+      background-color: transparent;
+      display: block;
+      width: 80vw;
+      margin: 2rem auto;
+      border: .1rem solid $primaryColor;
+      border-radius: .5rem;
+      outline: none;
+    }
+
+    &  .cta {
+      margin-top: 2rem;
+
+      &  .btn {
+        margin: auto;
+        padding: 1rem;
+        display: block;
+        border: none;
+        background-color: transparent;
+        color: $textColor;
+      }
+      &  .btn_login {
+        background-color: $primaryColor;
+        padding: 1rem 7rem;
+        border-radius: .5rem;
+        color: white;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  
+}
