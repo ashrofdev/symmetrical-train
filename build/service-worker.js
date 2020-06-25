@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/symmetrical-train/precache-manifest.c313f3f76cdca07f665d95d10185afd0.js"
+  "/symmetrical-train/precache-manifest.06505db7919b578663ced8b732fc4534.js"
 );
 
 self.addEventListener('message', (event) => {
